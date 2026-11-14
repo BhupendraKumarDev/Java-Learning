@@ -1,21 +1,45 @@
-
 # Java Learning Journey
 
-Welcome to my Java learning journey!
+Daily Java practice, organized by topic. The current structure covers Basics, Variables, and Operators. Numbered topic folders keep the learning order clear; lowercase package folders keep Java package names valid and aligned with their paths.
 
-I am learning Java step by step and uploading my daily practice programs here.
+## Structure
 
-## Topics Covered
+```text
+Java-Learning/
+├── 01-Basics/
+│   └── basics/
+│       └── HelloWorld.java
+├── 02-Variables/
+│   └── variables/
+│       └── Variables.java
+└── 03-Operators/
+    ├── arithmetic/
+    │   ├── Operators.java
+    │   └── ArithmeticOperators.java
+    ├── relational/
+    ├── logical/
+    ├── assignment/
+    └── unary/
+```
 
-- Java Basics
-- Variables and Data Types
-- Operators
-- Conditional Statements
-- Loops
-- Arrays
-- Strings
-- Object-Oriented Programming
+VS Code workspace settings mark these three numbered folders as Java source paths. Open the repository root in VS Code and install the **Extension Pack for Java** when prompted.
 
-## Goal
+## Run a program
 
-To improve my Java programming skills through daily practice.
+Use the **Run** link above a class's `main` method in VS Code. For example, from the repository root in PowerShell:
+
+```powershell
+javac -d bin 01-Basics/basics/HelloWorld.java
+java -cp bin basics.HelloWorld
+```
+
+## Daily GitHub workflow
+
+```bash
+git status
+git add .
+git commit -m "Day N: practice <topic>"
+git push origin main
+```
+
+Use a short topic in the commit message, such as `Day 3: practice arithmetic operators`.
