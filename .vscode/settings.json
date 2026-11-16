@@ -1,8 +1,15 @@
+
 {
-  "java.project.sourcePaths": [
-    "01-Basics",
-    "02-Variables",
-    "03-Operators"
-  ],
-  "java.project.outputPath": "bin"
+    "java.project.sourcePaths": [
+        "01-Basics",
+        "02-Variables",
+        "03-Operators",
+        "04-Conditional-Statements/ifStatement",
+        "04-Conditional-Statements/ifElseStatement",
+        "04-Conditional-Statements/ifElseIfLadder",
+        "04-Conditional-Statements/nestedIf",
+        "04-Conditional-Statements/switchStatement",
+        "04-Conditional-Statements/PracticePrograms"
+    ],
+    "java.project.outputPath": "bin"
 }
