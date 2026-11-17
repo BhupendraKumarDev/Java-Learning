@@ -1,6 +1,8 @@
 
 {
     "java.project.sourcePaths": [
+        "06-Pattern(part-1)/invertedStarPattern",
+        "05Loops/practice",
         "05Loops/foorLoop",
         "04-Conditional-Statements/switchStatement",
         "04-Conditional-Statements/nestedIf",
@@ -11,7 +13,7 @@
         "03-Operators",
         "02-Variables",
         "01-Basics",
-        "05Loops/practice"
+        "06-Pattern(part-1)/halfPyramidPattern"
     ],
     "java.project.outputPath": "bin"
 }
