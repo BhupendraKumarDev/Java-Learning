@@ -2,8 +2,15 @@
 {
     "java.project.sourcePaths": [
         "06-Pattern(part-1)/invertedStarPattern",
+        "06-Pattern(part-1)/halfPyramidPattern",
+        "06-Pattern(part-1)/characterPattern",
         "05Loops/practice",
         "05Loops/foorLoop",
+        "05Loops/BreakStatement",
+        "05Loops/continueStatement",
+        "05Loops/doWhileLoop",
+        "05Loops/nestedLoop",
+        "05Loops/WhileLoop",
         "04-Conditional-Statements/switchStatement",
         "04-Conditional-Statements/nestedIf",
         "04-Conditional-Statements/ifStatement",
@@ -13,7 +20,7 @@
         "03-Operators",
         "02-Variables",
         "01-Basics",
-        "06-Pattern(part-1)/halfPyramidPattern"
+        "07-functionAndMethod/withParameter"
     ],
     "java.project.outputPath": "bin"
 }

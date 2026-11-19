@@ -1,45 +1,36 @@
-# Java Learning Journey
+ Java Learning Journey
 
-Daily Java practice, organized by topic. The current structure covers Basics, Variables, and Operators. Numbered topic folders keep the learning order clear; lowercase package folders keep Java package names valid and aligned with their paths.
+Daily Java practice, organized by topic. The numbered folders follow the learning order:
 
-## Structure
+1. `01-Basics`
+2. `02-Variables`
+3. `03-Operators`
+4. `04-Conditional-Statements`
+5. `05Loops`
+6. `06-Pattern(part-1)`
+7. `07-functionAndMethod`
 
-```text
-Java-Learning/
-├── 01-Basics/
-│   └── basics/
-│       └── HelloWorld.java
-├── 02-Variables/
-│   └── variables/
-│       └── Variables.java
-└── 03-Operators/
-    ├── arithmetic/
-    │   ├── Operators.java
-    │   └── ArithmeticOperators.java
-    ├── relational/
-    ├── logical/
-    ├── assignment/
-    └── unary/
-```
+Each folder contains examples and practice programs. Topic notes are saved as `notes.md` files where available.
 
-VS Code workspace settings mark these three numbered folders as Java source paths. Open the repository root in VS Code and install the **Extension Pack for Java** when prompted.
+## Run programs in VS Code
 
-## Run a program
+Open this repository's root folder in VS Code and install the **Extension Pack for Java** if prompted. Open a `.java` file and select **Run** above its `main` method. The workspace settings include the current lesson folders as Java source paths, and generated `.class` files go into `bin/`, which Git ignores.
 
-Use the **Run** link above a class's `main` method in VS Code. For example, from the repository root in PowerShell:
+Java requires a JDK. If VS Code asks to add Java to `PATH`, install a JDK and make sure its `bin` folder is on your Windows `PATH`, then restart VS Code. Check the setup in the VS Code terminal with:
 
 ```powershell
-javac -d bin 01-Basics/basics/HelloWorld.java
-java -cp bin basics.HelloWorld
+java -version
+javac -version
 ```
 
 ## Daily GitHub workflow
 
-```bash
-git status
+After adding or changing code, run these commands in the VS Code terminal:
+
+```powershell
 git add .
 git commit -m "Day N: practice <topic>"
 git push origin main
 ```
 
-Use a short topic in the commit message, such as `Day 3: practice arithmetic operators`.
+For example: `git commit -m "Day 12: practice methods"`. Check `git status` first if you want to review which files will be included.
